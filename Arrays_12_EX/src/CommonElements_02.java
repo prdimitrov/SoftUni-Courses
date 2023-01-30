@@ -15,7 +15,7 @@ public class CommonElements_02 {
             for (String firstElement: firstArray) {
                 if (secondElement.equals(firstElement)) {
                     //общ елемент в двата масива
-                    System.out.println(firstElement + " ");
+                    System.out.print(firstElement + " ");
                     break;
                 }
             }
