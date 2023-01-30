@@ -12,7 +12,7 @@ public class TopIntegers_05 {
                 .stream(sc.nextLine().split(" "))
                 .mapToInt(Integer::parseInt)
                 .toArray();
-        int max = Integer.MAX_VALUE;
+        int max = 0;
 
         for (int i = 0; i < number.length; i++) {
             int currentNum = number[i];
