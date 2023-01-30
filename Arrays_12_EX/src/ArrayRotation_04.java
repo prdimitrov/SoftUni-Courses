@@ -26,7 +26,7 @@ public class ArrayRotation_04 {
         }
             //приключваме с ротациите -> принтираме всички елементи на масива
         for (String element: array) {
-            System.out.println(element + " ");
+            System.out.print(element + " ");
         }
     }
 }
